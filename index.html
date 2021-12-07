@@ -35,7 +35,7 @@
             <table class="table table-striped table-bordered " id="dtBasicExample">
                 <thead>
                     <tr>
-                        <th>Serial No<i class="bi bi-arrow-down-up m-2" onclick="numberSort()"></i></th>
+                        <th>Serial No<i class="bi bi-arrow-down-up m-2" onclick="number1Sort()"></i></th>
                         <th>Name<i class="bi bi-arrow-down-up m-2" onclick="sort()"></i></th>
                         <th>Entry Status<i class="bi bi-arrow-down-up m-2" onclick="locationSort()"></i>   </th>
                         <th>Exit Status <i class="bi bi-arrow-down-up m-2" onclick="numberSort()"></i>
@@ -170,6 +170,21 @@
         userSort=userSort==='asc'?'desc':'asc';
         insertRows();
     }
+    function number1Sort(){
+
+userData.sort((a,b)=>{  
+    let n1=a.index;
+    let n2=b.index; 
+    if(userSort==='asc'){
+    return n1-n2;
+    }
+    return n2-n1;
+
+    })
+
+    userSort=userSort==='asc'?'desc':'asc';
+    insertRows();
+}
 
 ///////filter search 
  function filterSearch(){
