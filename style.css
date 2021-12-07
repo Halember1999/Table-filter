@@ -1,0 +1,99 @@
+body{
+    background-image:linear-gradient(120deg,#D2E0E0,#2AB0FD);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height:70px;
+    background-color: #0B3B54;
+    width:100%;
+    color:white;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index: 1;
+}
+.bi-arrow-down-up{
+    cursor: pointer;
+}
+.container{
+    background-color: white;
+    width:50%;
+    margin:auto;
+    position:relative;
+    overflow:auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgb(163, 162, 162);
+}
+.bi-list:hover{
+    background-color:#0B3B54;
+    color:white;
+}
+.select:hover{
+    background-color: #D2E0E0;
+}
+.select{
+    border-radius: 10px;
+}
+.filter{
+    padding-left:60px;
+}
+.card{
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #000;
+    z-index: 1;
+  }
+
+.show {
+    display: block;
+}
+.dropdown-menu{
+    background-color: #D2E0E0;
+}
+.content{
+    display: none;
+    margin: 20px 0 10px 60px;
+    padding: 15px 0 0 0;
+    border: 1px solid #888;
+    text-align: center;
+}
+.content button{
+    background-color:#2AB0FD;
+}
+.pagination{
+    margin:auto;
+}
+
+.darkMode{
+    background-color:#0B3B54;
+    color:white;
+    margin:auto;
+    position:relative;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px 2px rgb(34, 59, 59);
+}
+.darkMode .bi-list{
+    background-color:#0B3B54;
+    color:white;
+}
+.container .darkB{
+    border-color:black;
+}
+
+.darkMode .darkB{
+    background-color:#0B3B54;
+    border-color: white;
+}
+.darkMode .bi-moon-fill{
+   color:white;
+}
+
+  
+
