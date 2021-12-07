@@ -1,8 +1,9 @@
 body{
-    background-image:linear-gradient(120deg,#D2E0E0,#2AB0FD);
+    /* background-image:linear-gradient(120deg,#D2E0E0,#2AB0FD); */
     background-size: cover;
     margin: 0;
     padding: 0;
+    background-color: rgb(171, 205, 205);
 }
 .header{
     height:70px;
